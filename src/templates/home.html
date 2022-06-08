@@ -1,6 +1,11 @@
 {% extends "template.html" %}
 {% block title %}Home{% endblock title %}
 {% block content %}
+<div class="card">
+  <div class="card-body">
+    Hello {{ name }}!
+  </div>
+</div>
 <button type="button" class="btn btn-primary">
   Notifications <span class="badge text-bg-secondary">4</span>
 </button>
